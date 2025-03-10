@@ -1,17 +1,15 @@
-import React from 'react'
-import { AppRoutes } from './routes/AppRoutes'
+import React from 'react';
+import { AppRoutes } from './routes/AppRoutes';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-
-
   return (
     <>
-    <AppRoutes/>
-    
-    
+      <AppRoutes />
+      <ToastContainer />
     </>
-  )
-  
-}
+  );
+};
 
-export default App
+export default App;
